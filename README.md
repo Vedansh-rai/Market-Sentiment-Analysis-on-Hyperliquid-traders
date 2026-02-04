@@ -40,34 +40,11 @@ jupyter notebook analysis_notebook.ipynb
 streamlit run dashboard.py
 ```
 
-## 📊 Analysis Overview
+# Analysis notebook
+cd notebooks && python3 analysis_notebook.py
 
-### Part A: Data Preparation
-- Loaded 2,645 days of sentiment data + 211,225 trades
-- Aligned datasets by date with timestamp conversion
-- Created metrics: daily PnL, win rate, trade size, long/short ratio
+# Interactive dashboard
+streamlit run dashboard.py
 
-### Part B: Analysis
-- **Fear vs Greed Performance**: Compared PnL, win rates, and drawdowns
-- **Behavioral Changes**: Trade frequency, position sizing, directional bias
-- **Trader Segments**: Size-based, frequency-based, consistency-based
 
-### Part C: Actionable Strategies
-1. **Sentiment-Based Sizing**: Reduce positions during Fear for large traders
-2. **Frequency Optimization**: Adjust trade count based on sentiment
 
-### Bonus
-- Random Forest model for profitability prediction
-- K-Means clustering for trader archetypes
-
-## 📈 Key Findings
-
-| Metric | Fear Days | Greed Days |
-|--------|-----------|------------|
-| Avg PnL/Trade | Variable | Variable |
-| Win Rate | ~30-40% | ~30-40% |
-| Long Ratio | Lower | Higher |
-
-## 📧 Contact
-
-Created for Data Science Intern assessment.

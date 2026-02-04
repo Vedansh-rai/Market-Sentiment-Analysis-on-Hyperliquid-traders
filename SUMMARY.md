@@ -64,13 +64,13 @@ Market sentiment shows measurable correlation with trader performance. Fear peri
 
 ---
 
-## Bonus: Predictive Model
+## Predictive Model
 - **Model**: Random Forest Classifier
 - **Target**: Next-day profitability bucket (Loss/Neutral/Profit)
 - **Features**: Trade count, average trade size, long ratio, sentiment
 - **Result**: Feature importance shows trade frequency and sentiment are significant predictors
 
-## Bonus: Trader Archetypes
+## Trader Archetypes
 K-Means clustering identified 4 distinct behavioral archetypes based on:
 - Average trade size
 - Trades per day

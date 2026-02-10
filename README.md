@@ -1,8 +1,8 @@
 # Market Sentiment Analysis on Hyperliquid Traders
 
-## 📂 Project Structure (Submission Format)
+## 📂 Project Structure 
 
-This repository follows the required submission structure:
+This repository follows the structure:
 
 ```
 ds_<Vedansh>/

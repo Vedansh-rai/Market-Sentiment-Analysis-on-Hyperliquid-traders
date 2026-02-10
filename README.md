@@ -1,45 +1,44 @@
-# Market Sentiment Analysis: Hyperliquid Trader Behavior
+# Market Sentiment Analysis on Hyperliquid Traders
 
-Analyze how market sentiment (Fear/Greed) relates to trader behavior and performance on Hyperliquid.
+## 📂 Project Structure (Submission Format)
 
-## 📁 Project Structure
+This repository follows the required submission structure:
 
 ```
-.
-├── data/
-│   ├── bitcoin_sentiment.csv      # Fear/Greed index data
-│   └── hyperliquid_trader_data.csv # Historical trader data
-├── notebooks/
-│   ├── analysis_notebook.py       # Source script
-│   ├── analysis_notebook.ipynb    # Jupyter notebook
-│   └── analysis_notebook_executed.ipynb  # Executed with outputs
-├── output/
+ds_<Vedansh>/
+├── notebook_1.ipynb               # Google Colab Notebook (Analysis & Code)
+├── csv_files/                     # Processed Data Files
+│   ├── bitcoin_sentiment.csv
+│   ├── hyperliquid_trader_data.csv
+│   ├── processed_merged_data.csv
+│   ├── processed_daily_metrics.csv
+│   └── ...
+├── outputs/                       # Visual Outputs (Charts/Graphs)
 │   ├── fear_vs_greed_performance.png
 │   ├── drawdown_by_sentiment.png
 │   ├── behavior_by_sentiment.png
 │   ├── segment_performance_heatmap.png
 │   ├── feature_importance.png
 │   └── trader_clusters.png
-└── README.md
+├── ds_report.pdf                  # Final Summarized Insights Report
+└── README.md                      # Setup Instructions & Notes
 ```
 
-## 🚀 Setup & Installation
+## 🔹 Google Colab Link
 
-```bash
-# Install dependencies
-pip install pandas numpy matplotlib seaborn scikit-learn jupytext streamlit
+**[View Analysis Notebook in Google Colab](https://colab.research.google.com/drive/1mC9SGgvRVYUi3UuFJRQR_kNQk-npaF8i)**  
+*(Access set to 'Anyone with the link can view')*
 
-# Run the analysis
-cd notebooks
-python analysis_notebook.py
+## 🚀 Setup & Usage
 
-# Or run as Jupyter notebook
-jupyter notebook analysis_notebook.ipynb
+1. **Data:** Raw and processed data is available in `csv_files/`.
+2. **Analysis:** The core analysis is in `notebook_1.ipynb`.
+3. **Report:** Read the full findings in `ds_report.pdf`.
+4. **Processing:** Use `process_data.py` (in `extras/` or root if moved) to reproduce the processed CSVs.
 
-# Run interactive dashboard
-streamlit run dashboard.py
-```
+## 📊 Key Findings
 
+<<<<<<< HEAD
 # Analysis notebook
 cd notebooks && python3 analysis_notebook.py
 
@@ -48,3 +47,11 @@ streamlit run dashboard.py
 
 
 
+=======
+- **Sentiment Impact:** Market sentiment (Fear/Greed) significantly impacts trader profitability.
+- **Behavioral Shifts:** Traders adjust frequency and leverage based on sentiment.
+- **Strategies:** Recommended creating sentiment-adjusted sizing rules for large traders.
+
+---
+*Submitted by Vedansh Rai*
+>>>>>>> c2207f4 (Initial commit of structured project)
